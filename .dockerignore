@@ -1,0 +1,8 @@
+node_modules
+devnet
+npm-debug.log
+.idea
+
+config/*
+!config/global/
+config/global/net.conf.json

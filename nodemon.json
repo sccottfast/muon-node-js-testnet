@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "env": {
+    "BABEL_DISABLE_CACHE": 1
+  },
+  "ext": "js,ts,json",
+  "ignore": [
+    "*.test.js",
+    "muon-data/",
+    "src/cmd/**/*.*",
+    "__test__/*",
+    "config/",
+    "fixtures/*",
+    "package-lock.json"
+  ]
+}
