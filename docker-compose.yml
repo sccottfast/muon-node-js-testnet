@@ -15,10 +15,12 @@ services:
     network_mode: host
     container_name: mongo
     image: mongo
+    restart: always
     command: mongod --bind_ip 127.0.0.1
 
   muon_redis:
     network_mode: host
     container_name: redis
     image: redis:6
+    restart: always
     command: redis-server --bind 127.0.0.1
